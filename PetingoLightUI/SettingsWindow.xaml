@@ -1,0 +1,40 @@
+﻿<Window x:Class="PetingoLightUI.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PetingoLightUI"
+        mc:Ignorable="d"
+        Title="Settings" Height="394" Width="258.5" Icon="cog.png" WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow" ShowInTaskbar="False" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+    <Grid Background="#102848">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid HorizontalAlignment="Left" Height="338" Margin="-2,24,0,0" VerticalAlignment="Top" Width="254">
+            <Label Content="Mode" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="25,16,0,0"/>
+            <ComboBox x:Name="cbMonitorMode" HorizontalAlignment="Left" Width="157" Margin="71,15,0,297"/>
+        </Grid>
+
+        <CheckBox Content="Startup with Windows" HorizontalAlignment="Left" Margin="24,78,0,0" VerticalAlignment="Top" Foreground="White" Background="White" x:Name="checkboxStartupWithWindows" Height="15" Width="136" BorderBrush="#00707070"/>
+
+        <Grid HorizontalAlignment="Left" Height="26" Margin="24,152,0,0" VerticalAlignment="Top" Width="202">
+            <Label Content="Schedule ON at" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="0,4,0,-4"/>
+            <ComboBox x:Name="cbHours_Start" HorizontalAlignment="Left" Width="50" Margin="98,4,0,-4"/>
+            <ComboBox Margin="148,4,-1,-4" x:Name="cbMinutes_Start" HorizontalAlignment="Left" Width="55 "/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="26" Margin="24,186,0,0" VerticalAlignment="Top" Width="202">
+            <Label Content="Schedule OFF at" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="0,4,0,-4"/>
+            <ComboBox x:Name="cbHours_End" HorizontalAlignment="Left" Width="50" Margin="98,4,0,-4"/>
+            <ComboBox Margin="148,4,-1,-4" x:Name="cbMinutes_End" HorizontalAlignment="Left" Width="55"/>
+        </Grid>
+        <Slider HorizontalAlignment="Left" Margin="26,268,0,0" VerticalAlignment="Top" Width="200" Maximum="100" Value="20" x:Name="sliderBrightness" BorderBrush="#00000000" Height="18" Thumb.DragCompleted="BrightnessSlider_DragCompleted"/>
+        <Label Content="LED Brightness Slider - 80%" HorizontalAlignment="Left" Margin="24,243,0,0" VerticalAlignment="Top" Foreground="White" x:Name="lblBrightness" Width="194" Height="26"/>
+        <Label Content="Settings" HorizontalAlignment="Left" Margin="-2,-16,0,0" VerticalAlignment="Top" Foreground="#4D2A558D" FontStretch="ExtraExpanded" FontWeight="ExtraBold" FontFamily="Leelawadee UI" FontSize="36" Height="58" Width="148"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="16,315,0,0" VerticalAlignment="Top" Width="216" Height="27" Click="SaveButton_Click"/>
+        <Separator HorizontalAlignment="Left" Height="11" Margin="26,228,0,0" VerticalAlignment="Top" Width="202"/>
+        <CheckBox Content="Run only on schedule" HorizontalAlignment="Left" Margin="26,128,0,0" VerticalAlignment="Top" Foreground="White" Background="White" x:Name="checkboxRunOnSchedule" Height="15" Width="136" BorderBrush="#00707070"/>
+        <Separator HorizontalAlignment="Left" Height="11" Margin="24,103,0,0" VerticalAlignment="Top" Width="202"/>
+
+    </Grid>
+</Window>

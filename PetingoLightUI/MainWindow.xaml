@@ -1,0 +1,124 @@
+﻿<Window x:Class="PetingoLightUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:tb="http://www.hardcodet.net/taskbar" 
+        xmlns:local="clr-namespace:PetingoLightUI"
+        xmlns:gif="https://github.com/XamlAnimatedGif/XamlAnimatedGif"
+        mc:Ignorable="d"
+        Closing="Window_Closing"  
+        Title="Petinglite 3000 Configuration" Height="209.25" Width="695.042" ResizeMode="NoResize" Icon="Bulb.ico" SizeToContent="WidthAndHeight">
+    <Grid Background="#7F000000" HorizontalAlignment="Left" Width="690" Height="180" VerticalAlignment="Top" Margin="0,0,-1,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid HorizontalAlignment="Left" Height="180" VerticalAlignment="Top" Width="689" Background="#FF3483EE" Margin="0,0,-33,0" Grid.ColumnSpan="2"/>
+        <Grid HorizontalAlignment="Left" Height="273" VerticalAlignment="Top" Width="327" Margin="577,91,-214,-184" Grid.ColumnSpan="2">
+            <Grid.Background>
+                <VisualBrush>
+                    <VisualBrush.Visual>
+                        <Image  gif:AnimationBehavior.SourceUri="fish.gif"/>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </Grid.Background>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="115" VerticalAlignment="Top" Width="156" Margin="301,31,0,0">
+            <Grid.Background>
+                <VisualBrush>
+                    <VisualBrush.Visual>
+                        <Image  gif:AnimationBehavior.SourceUri="fish.gif"/>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </Grid.Background>
+        </Grid>
+
+        <Grid Height="180" VerticalAlignment="Top" Background="#B2000000" HorizontalAlignment="Left" Width="690">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="" HorizontalAlignment="Left" Margin="656,10,0,0" VerticalAlignment="Top" Width="23" Height="22" x:Name="btnMainSettings" Click="btnMainSettings_Click" BorderBrush="#00707070" Foreground="Black">
+                <Button.Background>
+                    <ImageBrush ImageSource="cog.png"/>
+                </Button.Background>
+            </Button>
+            <Label HorizontalAlignment="Left" Margin="640,46,-8,0" VerticalAlignment="Top" Height="26" Content="Settings" Width="57" RenderTransformOrigin="0.5,0.5" Foreground="White" FontWeight="Bold" Grid.ColumnSpan="2">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+        </Grid>
+        <Label Content="Petinglite 3000 RGB Configuration" HorizontalAlignment="Left" Margin="33,49,0,0" VerticalAlignment="Top" Foreground="#4D2A558D" FontStretch="ExtraExpanded" FontWeight="ExtraBold" FontFamily="Leelawadee UI" FontSize="36" Height="58" Width="595"/>
+        <Grid Margin="228,2,0,0" HorizontalAlignment="Left" Width="203" Height="162" VerticalAlignment="Top">
+            <ComboBox HorizontalAlignment="Left" Height="26" Margin="0,136,0,0" VerticalAlignment="Top" Width="200" Background="White" Foreground="#FF111111" x:Name="ScreenSelectionDropdownYellow" BorderBrush="#00000000"/>
+            <Rectangle HorizontalAlignment="Left" Height="104" Margin="0,20,0,0" VerticalAlignment="Top" Width="199" Stretch="Fill" OpacityMask="White" Fill="#33000000"/>
+            <Label x:Name="lblCenterLable"  Content="CENTER" HorizontalAlignment="Center" Margin="0,8,0,0" VerticalAlignment="TOP" Foreground="#FFF5D400" FontSize="30" FontWeight="Thin"/>
+            <Image HorizontalAlignment="Left" Height="105" Margin="0,19,0,0" VerticalAlignment="Top" Width="9"  Stretch="Fill" x:Name="ImgLYellow"/>
+            <Image HorizontalAlignment="Left" Height="105" Margin="190,19,0,0" VerticalAlignment="Top" Width="9" Stretch="Fill" x:Name="ImgRYellow"/>
+            <Image HorizontalAlignment="Left" Height="9" Margin="0,15,0,0" VerticalAlignment="Top" Width="199" Stretch="Fill" x:Name="ImgTYellow"/>
+            <Rectangle x:Name="rectCenter" Fill="#FFF5D400" HorizontalAlignment="Left" Height="5" Stroke="Black" VerticalAlignment="Top" Width="200" Margin="0,10,0,0"/>
+            <Label Content="Lightstrip LED Count" HorizontalAlignment="Left" Margin="122,-1,0,0" VerticalAlignment="Top" Foreground="White" FontSize="6" Width="64"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="184,2,0,0" VerticalAlignment="Top" Width="12" Height="12" x:Name="btnSettingsYellow" Click="btnSettingsYellow_Click" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="cog.png"/>
+                </Button.Background>
+            </Button>
+            <Image HorizontalAlignment="Left" Height="104" Margin="0,20,0,0" VerticalAlignment="Top" Width="199" x:Name="ImgPreviewYellow" Stretch="Fill" OpacityMask="White"/>
+        </Grid>
+        <Grid Margin="441,2,0,0" HorizontalAlignment="Left" Width="202" Height="162" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="23*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <ComboBox HorizontalAlignment="Left" Height="26" Margin="1,136,0,0" VerticalAlignment="Top" Width="199" Background="White" Foreground="#FF111111" x:Name="ScreenSelectionDropdownRed" BorderBrush="#00000000" Grid.RowSpan="2"/>
+            <Rectangle Height="104" Margin="1,20,0,0" VerticalAlignment="Top" Stretch="Fill" OpacityMask="White" HorizontalAlignment="Left" Width="199" Fill="#33000000"/>
+            <Label x:Name="lblRightLable" Content="RIGHT" HorizontalAlignment="Right" Margin="0,8,0,0" VerticalAlignment="TOP" Foreground="#FFCD0000" FontSize="30" FontWeight="Thin"/>
+            <Image HorizontalAlignment="Left" Height="105" Margin="0,19,0,0" VerticalAlignment="Top" Width="9"  Stretch="Fill" x:Name="ImgLRed"/>
+            <Image HorizontalAlignment="Left" Height="105" Margin="191,19,0,0" VerticalAlignment="Top" Width="9"  Stretch="Fill" x:Name="ImgRRed"/>
+            <Image HorizontalAlignment="Left" Height="9" Margin="0,15,0,0" VerticalAlignment="Top" Width="200" Stretch="Fill" x:Name="ImgTRed"/>
+            <Rectangle x:Name="rectRight" Fill="#FFCD0000" HorizontalAlignment="Left" Height="5" Stroke="Black" VerticalAlignment="Top" Width="201" Margin="0,10,0,0"/>
+            <Image Height="104" Margin="1,20,0,0" VerticalAlignment="Top" x:Name="ImgPreviewRed" Stretch="Fill" OpacityMask="White" HorizontalAlignment="Left" Width="199"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="184,2,0,0" VerticalAlignment="Top" Width="13" Height="12" x:Name="btnSettingsRed" Click="btnSettingsRed_Click" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="cog.png"/>
+                </Button.Background>
+            </Button>
+            <Label Content="Lightstrip LED Count" HorizontalAlignment="Left" Margin="122,-1,0,0" VerticalAlignment="Top" Foreground="White" FontSize="6" Width="64"/>
+        </Grid>
+        <Grid Margin="10,2,-33,0" Height="162" VerticalAlignment="Top" HorizontalAlignment="Left" Width="679" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="673*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <ComboBox HorizontalAlignment="Left" Height="26" Margin="1,136,0,0" VerticalAlignment="Top" Width="202" Background="White" Foreground="#FF111111" x:Name="ScreenSelectionDropdownBlue" BorderBrush="#00000000"/>
+            <Rectangle HorizontalAlignment="Left" Height="105" Margin="2,19,0,0" VerticalAlignment="Top" Width="199" Stretch="Fill" OpacityMask="#FF7E7070" Fill="#33000000"/>
+            <Label x:Name="lblLeftLable" Content="LEFT" HorizontalAlignment="Left" Margin="0,8,0,0" VerticalAlignment="TOP" Foreground="#FF0097FF" FontSize="30" FontWeight="Thin" Height="50" Width="68"/>
+            <Image HorizontalAlignment="Left" Height="105" Margin="0,19,0,0" VerticalAlignment="Top" Width="9" Stretch="Fill" x:Name="ImgLBlue"/>
+            <Image HorizontalAlignment="Left" Height="105" Margin="195,19,0,0" VerticalAlignment="Top" Width="9" Stretch="Fill" x:Name="ImgRBlue"/>
+            <Image HorizontalAlignment="Left" Height="9" Margin="0,15,0,0" VerticalAlignment="Top" Width="201"  Stretch="Fill" x:Name="ImgTBlue"/>
+            <Rectangle x:Name="rectLeft" Fill="#FF0097FF" HorizontalAlignment="Left" Height="5" Stroke="Black" VerticalAlignment="Top" Width="206" Margin="0,10,0,0"/>
+            <Label Content="Lightstrip LED Count" HorizontalAlignment="Left" Margin="128,-1,0,0" VerticalAlignment="Top" Foreground="White" FontSize="6" Width="66" Height="18"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="190,2,0,0" VerticalAlignment="Top" Width="12" Height="12" x:Name="btnSettingsBlue" Click="btnSettingsBlue_Click" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="cog.png"/>
+                </Button.Background>
+            </Button>
+            <Image HorizontalAlignment="Left" Height="105" Margin="2,19,0,0" VerticalAlignment="Top" Width="199" x:Name="ImgPreviewBlue" Stretch="Fill" OpacityMask="White"/>
+
+        </Grid>
+
+        <Label Visibility="Hidden" x:Name="lblPaused" Content="Paused (AltGr+P to Resume)" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="-1,134,1,0" VerticalAlignment="Top" Foreground="#FFFFF4E3" FontStretch="ExtraExpanded" FontWeight="Thin" FontFamily="Leelawadee UI" FontSize="26" Height="46" Width="690" Background="#FF0D203A"/>
+        <Label Visibility="Hidden" x:Name="lblConnecting" Content="Looking for your Petinglite Box..." HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="-1,134,1,0" VerticalAlignment="Top" Foreground="#FFFFF4E3" FontStretch="ExtraExpanded" FontWeight="Thin" FontFamily="Leelawadee UI" FontSize="26" Height="46" Width="690" Background="#FF0D203A"/>
+        <Label Visibility="Hidden" x:Name="lblBTPairRequest" Content="Please pair your Petinglite Box..." HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="-1,134,1,0" VerticalAlignment="Top" Foreground="#FFFFF4E3" FontStretch="ExtraExpanded" FontWeight="Thin" FontFamily="Leelawadee UI" FontSize="26" Height="46" Width="690" Background="#FF0D203A"/>
+        
+    </Grid>
+</Window>

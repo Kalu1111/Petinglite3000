@@ -1,0 +1,21 @@
+﻿<Window x:Class="PetingoLightUI.ForceScreenUpdateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PetingoLightUI"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Topmost = "True"
+        WindowStartupLocation="Manual"
+        ResizeMode="NoResize"
+        Title="Petinglite Logo" Height="20" Width="20"
+        ShowInTaskbar="False">
+    <Window.Background>
+        <SolidColorBrush Opacity="0" Color="White"/>
+    </Window.Background>
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="13" VerticalAlignment="Top" Width="14" Source="Bulb.ico" Margin="6,6,0,0"/>
+    </Grid>
+</Window>

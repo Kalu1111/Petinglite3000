@@ -1,0 +1,59 @@
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\LEDCountSetup.g.cs
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\MainWindow.g.cs
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\App.g.cs
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Hardcodet.NotifyIcon.Wpf.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\InTheHand.Net.Personal.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Newtonsoft.Json.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Common.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Configuration.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Frameworks.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Packaging.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Versioning.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\SharpDX.Direct3D11.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\SharpDX.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\SharpDX.DXGI.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Xamarin.Forms.Core.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Xamarin.Forms.Platform.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Xamarin.Forms.Xaml.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\XamlAnimatedGif.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Hardcodet.NotifyIcon.Wpf.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\InTheHand.Net.Personal.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Newtonsoft.Json.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Common.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Configuration.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Frameworks.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Packaging.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NuGet.Versioning.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\SharpDX.pdb
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\SharpDX.Direct3D11.pdb
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\SharpDX.Direct3D11.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\SharpDX.DXGI.pdb
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\SharpDX.DXGI.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Xamarin.Forms.Core.pdb
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Xamarin.Forms.Core.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Xamarin.Forms.Xaml.pdb
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Xamarin.Forms.Xaml.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\XamlAnimatedGif.pdb
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\App.baml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\LEDCountSetup.baml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\MainWindow.baml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\NotifyIconResources.baml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\PetingoLightUI.Properties.Resources.resources
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\PetingoLightUI.csproj.GenerateResource.cache
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\PetingoLightUI.csproj.CoreCompileInputs.cache
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\PetingoLightUI.csproj.CopyComplete
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\SettingsWindow.g.cs
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\SettingsWindow.baml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\PetingoLightUI.csproj.AssemblyReference.cache
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Petinglite 3000.exe.config
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\Petinglite 3000.exe
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\Petinglite 3000_MarkupCompile.cache
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\Petinglite 3000_MarkupCompile.lref
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\Petinglite 3000.g.resources
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\Petinglite 3000.exe
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\ForceScreenUpdateWindow.g.cs
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\obj\x64\Release\ForceScreenUpdateWindow.baml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NLog.dll
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NLog.xml
+C:\Users\nfaria\source\repos\PetingoLightUI\PetingoLightUI\bin\x64\Release\NLog.config

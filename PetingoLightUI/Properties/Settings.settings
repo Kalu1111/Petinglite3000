@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PetingoLightUI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SCREEN_INDEX_0" Type="System.String" Scope="User">
+      <Value Profile="(Default)">255@255</Value>
+    </Setting>
+    <Setting Name="SCREEN_INDEX_2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">255@255</Value>
+    </Setting>
+    <Setting Name="SCREEN_BRIGHTNESS" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="STARTUP_WITH_WINDOWS" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LED_COUNT_VER_RED" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="LED_COUNT_VER_YELLOW" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="LED_COUNT_VER_BLUE" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="LED_COUNT_HOR_RED" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="LED_COUNT_HOR_YELLOW" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="LED_COUNT_HOR_BLUE" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="SCREEN_INDEX_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">255@255</Value>
+    </Setting>
+    <Setting Name="LED_TARGET_TIME_OFF" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="LED_TARGET_TIME_ON" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="MODE" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

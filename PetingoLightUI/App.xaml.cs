@@ -71,14 +71,12 @@ namespace PetingoLightUI
             {
                 case SessionSwitchReason.SessionUnlock:
                     Logger.Info("Application OnSessionSwitch (SessionUnlock)");
-                    Thread.Sleep(500);
-                    MainManager.Instance.Pause();
-                    Thread.Sleep(500);
-                    MainManager.Instance.Start();
+                    Process.Start(ResourceAssembly.Location);
+                    Current.Shutdown();
                     break;
                 case SessionSwitchReason.SessionLock:
                     Logger.Info("Application OnSessionSwitch (SessionLock)");
-                    MainManager.Instance.Pause();
+                    MainManager.Instance.Dispose();
                     break;
             }
         }

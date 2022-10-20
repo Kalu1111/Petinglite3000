@@ -66,7 +66,7 @@ namespace PetingoLightUI
                         {
                             isAttemptingToConnect = true;
                             while (true)
-                                if (!BluetoothManager.InitConnection(onSuccessfulConnection))
+                                if (!InitConnection(onSuccessfulConnection))
                                     Thread.Sleep(1000);
                                 else
                                     break;

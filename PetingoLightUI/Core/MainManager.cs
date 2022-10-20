@@ -63,6 +63,8 @@ namespace PetingoLightUI
                 Resume();
             else
                 Pause();
+
+            SystemEvents.DisplaySettingsChanged += SystemEvents_DisplaySettingsChanged;
         }
         public bool StartScreenshotManager(TargetColor t, string screenAddress)
         {
@@ -182,6 +184,10 @@ namespace PetingoLightUI
         private void Stop(TargetColor t)
         {
             ScreenshotManagers[(int)t].Stop();
+        }
+        private void SystemEvents_DisplaySettingsChanged(object sender, EventArgs e)
+        {
+            Pause();
         }
 
         #region thread safe

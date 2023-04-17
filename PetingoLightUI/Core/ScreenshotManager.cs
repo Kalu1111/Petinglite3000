@@ -98,10 +98,10 @@ namespace PetingoLightUI.Lib
                         var device = new SharpDX.Direct3D11.Device(adapter);
                         var output = adapter.GetOutput(displayIdx);
                         var output1 = output.QueryInterface<Output1>();
-                        var screen = Screen.AllScreens[displayIdx];
-                        float scalingFactor = GetDpiScalingFactor(displayIdx);
-                        ushort width = (ushort)(Screen.AllScreens[displayIdx].Bounds.Width * scalingFactor);
-                        ushort height = (ushort)(Screen.AllScreens[displayIdx].Bounds.Height * scalingFactor);
+                        var screen = Screen.AllScreens.Where(x => x.DeviceName == output.Description.DeviceName).First();
+                        float scalingFactor = GetDpiScalingFactor(screen);
+                        ushort width = (ushort)(screen.Bounds.Width * scalingFactor);
+                        ushort height = (ushort)(screen.Bounds.Height * scalingFactor);
                         ushort widthAdjusted = GetNearestDivided(width, LEDHorizontalCount);
                         ushort stepHorExcess = (ushort)(width - widthAdjusted);
                         ushort midSectionJump = (ushort)((width * 4) - (avgDepthLR * 10 * 8)); //*10 because we only read 1px every 10
@@ -327,9 +327,8 @@ namespace PetingoLightUI.Lib
             PixelArrayR = Enumerable.Repeat<byte>(128, LEDVerticalCount * 3).ToArray();
             PixelArrayT = Enumerable.Repeat<byte>(128, LEDHorizontalCount * 3).ToArray();
         }
-        private float GetDpiScalingFactor(int displayIndex)
+        private float GetDpiScalingFactor(Screen screen)
         {
-            Screen screen = Screen.AllScreens[displayIndex];
             DEVMODE dm = new DEVMODE();
             dm.dmSize = (short)Marshal.SizeOf(typeof(DEVMODE));
             EnumDisplaySettings(screen.DeviceName, -1, ref dm);
